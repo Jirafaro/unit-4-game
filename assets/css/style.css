@@ -1,0 +1,55 @@
+header {
+    padding: 20px;
+    background-color: chocolate;
+    color: white;
+    width: 27%;
+}
+
+body {
+    background-image: url(../images/90158506-light-blue-cool-vector-low-poly-crystal-background-polygon-design-pattern-low-poly-illustration-back.jpg)
+}
+
+p {
+    background-color: white;
+    height: 25vw;
+    width: 50%;
+}
+
+#Randompoints {
+    background-color: brown;
+    color: white;
+    size: 20px;
+    width: 10%;
+    height: 5vw;
+}
+
+/* #b1 {
+    height: 250px;
+    width: 250px;
+    background-image: url(../images/90158506-light-blue-cool-vector-low-poly-crystal-background-polygon-design-pattern-low-poly-illustration-back.jpg);
+}
+#b2 {
+    height: 250px;
+    width: 250px;
+    background-image: url(../images/5a8d073baee9140001946903_Asset\ 6@2x.png);
+}
+#b3 {
+    height: 250px;
+    width: 250px;
+    background-image: url(../images/5a8cffecaee91400019463c5_Asset\ 1@2x.png);
+}
+#b4 {
+    height: 250px;
+    width: 250px;
+    background-image: url(../images/purple-crystal.png);
+} */
+#currentpoints {
+    background-color: red;
+    width: 15%;
+}
+#pointsblock {
+    background-color: red;
+    width: 15%;
+    height: 5vw;
+    margin-top: 50px;
+}
