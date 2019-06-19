@@ -21,7 +21,7 @@ p {
     height: 10vw;
     display: flex;
 }
-#Score {
+#GoalScore {
     background-color: red; 
     margin: 0px 0px 38px 0px; 
     padding: 10px;
