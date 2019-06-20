@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>CrystalsCollector</title>
 </head>
 <body>
@@ -12,11 +13,12 @@
         <h1>CrystalsCollector!</h1>
         </header>
     <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum labore incidunt molestiae atque facilis esse expedita nulla voluptatibus quisquam ut dicta, maiores distinctio officia magni placeat eos cumque fugit quaerat.</p>
+        <p>Welcome to my first Jquery game! <br> <br> 
+            The objective of the game is to click the crystal images, which have a random value, until the current points are equal to the Goal Score. <br> <br> The tricky part is that each Crystal has a random value that resets each game. You will need to figure out the values of the crystals and add these values together in order to get the exact value of the Goal Score. <br> <br> If you are able to get the Current Points to equal the Goal Score <strong>You Win!</strong> <br><br>But watch out! If you go over the Goal Score <strong>You Lose!</strong></p>
     </div>
     <div id="Randompoints">
     <div id="GoalScore">Goal Score: </div> 
-        <div id="Wins">Wins: <br><hr> Losses: </div>
+        <div id="Wins">Wins: 0 <br><hr> Losses: 0 </div>
     </div> 
     <div class="buttons">
         <button type="button" id="b1"></button>
@@ -26,6 +28,8 @@
     </div> 
     <div id="currentpoints">Current Points: </div>
     <div id="pointsblock">0</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>    
+<script src="assets/javascript/game.js"></script>
 
 </body>
 </html>
